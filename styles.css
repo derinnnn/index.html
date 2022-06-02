@@ -1,0 +1,86 @@
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;/*to center all elements in the body*/
+    font-family: 'Merriweather', serif;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    margin-top: 0px;
+    padding-top: 100px;
+}
+.table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /* the above is used to center my table */
+}
+
+h1 {
+   color:  #66BFBF;
+    margin: 50px,auto,0px,auto;
+    font-family: 'Marck Script', cursive;
+    font-size: 5.625rem; 
+}
+
+h2 {
+    color:  #66BFBF;
+    font-family: 'Montserrat',sans-serif;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat',sans-serif;
+}
+
+.middle-container {
+   
+}
+
+.bottom-container {
+   
+}
+
+.second {
+    text-decoration: underline;/*to underline the text*/
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    /*in absolute positioning, it is positioned either to the left or right of the parent position*/
+}
+.profile-image {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
+.skill-image {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
+.second-skill {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
+
+hr { 
+    border-color: gray;
+    border-style: none;
+    border-top-style: dotted ;
+    border-width: 5px;
+    width: 5%;
+    height: 0px;
+/* border dotted line */
+}
